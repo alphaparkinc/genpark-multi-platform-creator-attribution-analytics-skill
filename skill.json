@@ -1,0 +1,35 @@
+{
+  "name": "genpark-multi-platform-creator-attribution-analytics-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Multi-platform creator attribution analytics & conversion funnel tracking engine.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "creator-attribution",
+    "funnel-analytics",
+    "conversion-tracking",
+    "influencer-roi",
+    "sparkfly"
+  ],
+  "inputs": {
+    "campaign_id": {
+      "type": "string"
+    },
+    "tracking_window_days": {
+      "type": "integer"
+    }
+  },
+  "outputs": {
+    "attributed_gmv_usd": {
+      "type": "number"
+    },
+    "conversion_rate_pct": {
+      "type": "number"
+    },
+    "top_performing_channel": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
